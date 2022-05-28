@@ -1,2 +1,3 @@
-0 string SCHOOL
-!:mime data/School
+0       search/1/c      =<?php                  PHP script text
+!:mime  text/x-unittest
+
