@@ -1,2 +1,2 @@
 #!/bin/bash
-sort | uniq -u | grep -e '^\s.*1\s'
+sort | uniq -u
