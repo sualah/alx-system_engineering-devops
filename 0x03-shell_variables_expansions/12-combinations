@@ -1,2 +1,2 @@
-#!/bin/bash
-echo {a..z}{a..z} | (read pairs; printf '%s\n' "${pairs//oo/}") | tr ' ' "\n" 
+#!/bin/bash 
+printf '%s\n' "$({echo {a..z}{a..z} //00/)}" |  tr ' ' "\n"
