@@ -1,3 +1,2 @@
 #!/bin/bash
-echo {a..z}{a..z} | read pairs
-echo $pairs
+echo {a..z}{a..z} | (read pairs; printf '%s\n' "${pairs//oo/}") | tr ' ' "\n" 
