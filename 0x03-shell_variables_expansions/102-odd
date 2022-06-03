@@ -1,6 +1,2 @@
 #!/bin/bash
-cat - |grep "something"|while read l_line
-do
-   # Perform a test of some sort before echoing!
-   echo $l_line
-done
+sed -n 1~2p
