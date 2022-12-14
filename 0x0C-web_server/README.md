@@ -418,13 +418,13 @@ Web servers are the piece of software generating and serving HTML pages, let’s
 Requirements:
 * Install nginx on your web-01 server
 * Nginx should be listening on port 80
-* When querying Nginx at its root / with a GET request (requesting a page) using curl, it must return a page that contains the string Holberton School
+* When querying Nginx at its root / with a GET request (requesting a page) using curl, it must return a page that contains the string Hello World!
 * As an answer file, write a Bash script that configures a new Ubuntu machine to respect above requirements
 
 Example:
 ```
 sylvain@ubuntu$ curl 34.198.248.145/
-Holberton School for the win!
+Hello World!
 sylvain@ubuntu$ curl -sI 34.198.248.145/
 HTTP/1.1 200 OK
 Server: nginx/1.4.6 (Ubuntu)
@@ -563,6 +563,3 @@ Requirements:
 * Your answer file should be a Puppet manifest containing commands to automatically configure an Ubuntu machine to respect above requirements
 
 ---
-
-## Author
-* **Robinson Montes** - [mecomonteshbtn](https://github.com/mecomonteshbtn)
